@@ -1,0 +1,10 @@
+SOYO Tam Otomatik v2.5 — sohbet takılma / kaydırma düzeltmesi
+
+- Yeni sohbete girildiği halde mesaj kutusu veya gönder düğmesi Accessibility ağacına geç düşerse servis artık kullanıcının elle kaydırmasına ihtiyaç duymadan sohbet gövdesinde küçük bir otomatik kaydırma yaparak Flutter arayüzünü yeniler.
+- Gönder düğmesi birkaç denemede bulunamazsa aynı güvenli "uyandırma" hareketi otomatik uygulanır ve node ağacı yeniden taranır. Kör koordinat tıklaması ilk denemelerde yapılmaz; gerçek gönder düğümünün gelmesi beklenir.
+- Aynı öneri satırını yalnızca isimle değil, satırın yakınındaki görünen metinlerden üretilen parmak iziyle de hatırlar. İsim farklı biçimde çizilse bile aynı satıra tekrar girme ihtimali azaltıldı; aynı ada sahip iki farklı satır da birbirini gereksiz yere engellemez.
+- Önerilenler ekranında görünür uygun satır kalmadığında ilk otomatik kaydırma daha belirgin yapıldı; Flutter'ın küçük hareketi yutması yüzünden elle kaydırma gerektiren durum azaltıldı.
+- Sohbet içindeki otomatik "uyandırma" kaydırması en fazla iki kez yapılır; sonsuz kaydırma döngüsü oluşmaz.
+- Manuel ONAYLA modu hâlâ yoktur; tam otomatik akış korunur.
+
+Sürüm 2.5 / versionCode 16.

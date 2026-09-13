@@ -1,0 +1,11 @@
+SOYO Tam Otomatik v2.4 — sıra/duplike düzeltmesi
+
+- Manuel ONAYLA modu kaldırıldı; uygulama artık tek çalışma şekli olarak tam otomatik çalışır.
+- “Önerilenler ekranında ilk uygun Sohbet satırını otomatik aç” ve “Tam Otomatik Mod” aç/kapa kutuları kaldırıldı.
+- Eski kurulumdan kalan kapalı otomasyon tercihleri v2.4 açılışında otomatik olarak açık duruma getirilir.
+- Bir öneri satırı bir kez başarıyla açıldığında aynı servis oturumunda tekrar seçilmez; böylece aynı sohbete dönüp durma engellenir.
+- Liste satırındaki ad ile sohbet başlığındaki ad farklı normalize edilse bile, hem gerçek sohbet adı hem de tıklanan liste satırı tamamlandı olarak işaretlenir.
+- Gönder düğmesine bir kez tıklama kabul edildikten sonra aynı mesaj için ikinci kez GÖNDER tıklaması yapılmaz. UI doğrulaması gecikirse beklenir ve akış ilerletilir; duplike mesaj riski azaltılır.
+- Sıralama yine ekranda üstten alta ilk uygun, daha önce açılmamış satır üzerinden devam eder.
+
+Sürüm 2.4 / versionCode 15.

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SOYO Tam Otomatik</string>
+    <string name="accessibility_description">SOYO ekranındaki kişi adını doğrular, kişiselleştirilmiş mesajı hazırlar; manuel onay olmadan tam otomatik gönderir ve sıradaki kişiye geçer.</string>
+</resources>
